@@ -34,9 +34,11 @@ h1 {
   line-height: 1.1;
 }
 h3 {
-  color: rgb(35, 35, 35);
+  color: rgb(12, 12, 12);
 }
-
+h4{
+  color: rgb(108, 108, 108);
+}
 button {
   margin: 5px;
   border-radius: 8px;

@@ -21,7 +21,9 @@ const Card = ({ curr }) => {
                 padding: "10px",
                 borderRadius: "10px"
             }}>
-            <h3>{isFront ? curr.front : curr.back}</h3>
+            <h4>{curr.difficulty }</h4>
+            <h3>{isFront ? curr.front : curr.back}
+            </h3>
             <img src={curr.img} width='100px'/>
         </div>
     )

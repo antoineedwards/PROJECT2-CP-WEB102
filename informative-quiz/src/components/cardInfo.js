@@ -16,7 +16,7 @@ const CARDINFO = `[
     {
         "id": 2,
         "front": "What continent is this country in?",
-        "back": "South America (Brazil)",
+        "back": "South America",
         "difficulty": "Easy",
         "img": "/src/assets/brazil.png"
     },
@@ -30,14 +30,14 @@ const CARDINFO = `[
     {
         "id": 4,
         "front": "What continent is this country in?",
-        "back": "Asia (Japan)",
+        "back": "Asia",
         "difficulty": "Medium",
         "img": "/src/assets/japan.jpg"
     },
     {
         "id": 5,
         "front": "What continent is this country in?",
-        "back": "Europe (Germany)",
+        "back": "Europe",
         "difficulty": "Easy",
         "img": "/src/assets/germany.jpg"
     },

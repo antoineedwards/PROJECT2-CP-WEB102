@@ -6,11 +6,13 @@ import './App.css'
 
 function App() {
   const [sharedCard, setSharedCard] = useState(0);
+  const [sharedUserInput, sharedSetUserInput] = useState('');
+  
 
   return (
     <>
-      <Header card={sharedCard} setCard={setSharedCard}/>
-      <Footer card={sharedCard} setCard={setSharedCard}/>
+      <Header card={sharedCard} setCard={setSharedCard} userInput={sharedUserInput} setUserInput={sharedSetUserInput}/>
+      <Footer card={sharedCard} setCard={setSharedCard} userInput={sharedUserInput} setUserInput={sharedSetUserInput}/>
     </>
   )
 }

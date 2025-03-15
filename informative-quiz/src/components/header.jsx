@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Card from './card'
 
 
-const Header = ({card, setCard}) => {
+const Header = ({card, setCard, userInput, setUserInput}) => {
 
     return (
         <>
@@ -16,6 +16,7 @@ const Header = ({card, setCard}) => {
                     if (card > 0) {
                         setCard(card - 1)
                     }
+                    setUserInput('')
                 }}
                 >{`<-`}
                 </button>
@@ -23,6 +24,7 @@ const Header = ({card, setCard}) => {
                     if (card < 10) {
                         setCard(card + 1)
                     }
+                    setUserInput('')
                 }}
                 >{`->`}
                 </button>

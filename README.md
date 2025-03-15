@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='/src/assets/codepath-project3.gif' />
+<img src='/informative-quiz/src/assets/codepath-project3.gif' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
